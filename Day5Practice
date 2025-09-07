@@ -1,0 +1,17 @@
+#!/bin/bash
+
+echo "Day5Practice start"
+
+if [ -f README.md ]; then
+ echo "README.md exist" 
+else 
+ echo "README.md not exist"
+fi 
+
+for i in 1 2 3
+do
+echo "Loop number: $i"
+done 
+
+echo "First argument passed: $1"
+echo "Second argument passed: $2"
